@@ -1,0 +1,6 @@
+---
+ansible_user: vagrant
+ansible_password: vagrant
+ansible_ssh_extra_args: '-o StrictHostKeyChecking=no'
+welcome: Bienvenue à {{ ansible_hostname }}
+afip: MPI2020-2022
